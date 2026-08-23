@@ -1,0 +1,16 @@
+# Project-specific overrides
+# Exclude build artifacts
+*.html linguist-vendored
+
+*.tsx linguist-detectable
+* text=auto
+yarn.lock linguist-generated  
+
+*.min.js linguist-generated
+
+*.sh text eol=lf
+
+*.jpg binary
+
+src/**/*.tsx linguist-detectable
+# eof a2e88bf5
